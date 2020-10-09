@@ -14,9 +14,9 @@ echo '\e[33mexportet    \e[91m-> \e[96m  Local SSL path'
 ```
 you will need to do it as sudo.
 
-### Go yo the project folder and run
+### Go to the project folder and run
 
 ```
 bash OpenSSL.sh
 ```
-after this you will have your certificate for localgrizzly.com
+after this you will have your certificate for localgrizzly.com and you will can use ut as https.
