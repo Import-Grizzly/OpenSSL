@@ -16,10 +16,11 @@ create_cert() {
         -keyout localServer.key \
         -out localServer.crt
     echo "Add certificate to trusted"
-    sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain "$CERTIFICATE"
-    
+    sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain "$CERTIFICATE"   
 }
 
+
+## MAIN
 echo -e '
 \e[96m   __________  \e[33m  __________    \e[91m ___  \e[92m  ___________  \e[95m ___________  \e[96m  ____  \e[92m  ____      ____
 \e[96m  /     _____| \e[33m | |  ___    \  \e[91m|___| \e[92m |____       | \e[95m|____       | \e[96m |  | | \e[92m  \ \ \    / / /
