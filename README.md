@@ -19,4 +19,4 @@ you will need to do it as sudo.
 ```
 bash OpenSSL.sh
 ```
-after this you will have your certificate for localgrizzly.com and you will can use ut as https.
+after this you will have your certificate for localgrizzly.com and you will can use it as https.
