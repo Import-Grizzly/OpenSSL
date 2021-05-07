@@ -17,6 +17,7 @@ you will need to do it as sudo.
 ### Go to the project folder and run
 
 ```
+cd OpenSSL
 bash OpenSSL.sh
 ```
 after this you will have your certificate for localgrizzly.com and you will can use it as https.
